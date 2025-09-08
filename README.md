@@ -1,10 +1,25 @@
 # Customer-Churn-Prediction-Dashboard
 
-## Overview
-This project predicts whether a telecom customer is likely to churn using machine learning and visualizes insights via an interactive dashboard.
+ Overview
+
+Customer churn is a critical problem for subscription-based businesses. This project provides:
+
+Churn prediction using machine learning
+
+EDA insights to understand churn patterns
+
+Interactive dashboard for real-time predictions and visualization
 
 
-**Tech Stack:** Python, Pandas, Scikit-learn, XGBoost, Streamlit, Matplotlib, Seaborn, Plotly
+** Tech Stack
+
+Python (pandas, numpy, scikit-learn, XGBoost)
+
+Streamlit (for dashboard)
+
+Plotly (for advanced charts)
+
+Joblib (model persistence)
 <img width="1910" height="972" alt="p1" src="https://github.com/user-attachments/assets/90b6db65-66eb-4d89-80ad-32b4ce9d7976" />
 
 **Dataset:** [Telco Customer Churn Dataset](https://www.kaggle.com/blastchar/telco-customer-churn)
@@ -13,26 +28,28 @@ This project predicts whether a telecom customer is likely to churn using machin
 ---
 
 ## Features
-- **Predict churn:** Enter customer details to get a probability and prediction.
-- **EDA Insights:** Visualize churn distribution, contract type impact, and internet service patterns.
-- **Interactive Charts:** Gauge and bar charts for probabilities.
-
+- **Interactive Churn Prediction – Enter customer details and get churn probability instantly
+ EDA Visualizations – Churn distribution, contract type, tenure impact
+ Feature Importance Chart – Understand which features drive churn
+ Responsive Dashboard – Recruiter-friendly UI built with Streamlit + Plotly
 ---
 
-## Installation
-
-```bash
-git clone https://github.com/YourUsername/customer-churn-dashboard.git
-cd customer-churn-dashboard
+2️⃣ Install dependencies:
 pip install -r requirements.txt
-streamlit run app.py
 
-Example Usage
+3️⃣ Run the dashboard:
+streamlit run dashboard/app.py
 
-Open dashboard with streamlit run app.py.
+📸 Screenshots (Add Later)
 
-Go to "Prediction" section to enter customer details.
+Churn Prediction Form
 
-Get prediction result + probability charts.
+EDA Dashboard
 
-Explore "EDA Insights" for visual analytics.
+Feature Importance Chart
+
+📊 Results
+
+✔ Model Used: XGBoost Classifier
+✔ Accuracy: ~80%
+✔ Business Value: Helps retention teams reduce churn
